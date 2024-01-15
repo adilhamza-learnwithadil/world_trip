@@ -65,8 +65,7 @@
     margin: auto;
   }
 
-  .find_aria input,
-  select {
+  .find_aria input, select, .wi_full {
     width: 255px;
   }
 
@@ -81,4 +80,63 @@
     font-size: 30px;
     font-weight: 800;
   }
+
+
+  /* Our Popular Tours */
+
+  #popular_tour{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .tour_img img{
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .sec_heading{
+    font-size: 30px;
+  }
+
+
+  /* Choose Your Destination */
+  #destinations{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .two_place, .three_place{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .two_place .paces img{
+    width:390px;
+    height: 180px;
+    gap: 20px;
+  }
+
+  .ama{
+    width: 390px;
+    height: 180px;
+    border-radius: 18px;
+  }
+
+  .places{
+    max-width: 100%;
+    width: 390px;
+  }
+
+  .bangla{
+    width:390px;
+    height: 180px;
+  }
+
+  .ama .amazing_place{
+    max-width: 100%;
+    width: 390px;
+    height: 180px;
+  }
+
 }
