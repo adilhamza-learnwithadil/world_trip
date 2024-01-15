@@ -1,11 +1,11 @@
 @media screen and (max-width: 600px) {
   /* Navbar */
-  
-  .navbar ul{
+
+  .navbar ul {
     display: none;
   }
 
-  .bars{
+  .bars {
     display: block;
     background: none;
     border: none;
@@ -13,15 +13,15 @@
     transition: all 1s;
   }
 
-  .bars:hover{
-    color: #FF5400;
+  .bars:hover {
+    color: #ff5400;
   }
 
-  .logo h2{
+  .logo h2 {
     font-size: 28px;
   }
 
-  .logo h2 span{
+  .logo h2 span {
     font-size: 28px;
   }
 
@@ -29,14 +29,56 @@
     width: 60px;
   }
 
-  .container_hed{
+  .container_hed {
     margin-top: 15px;
     margin-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
   }
 
-
   /* Banner */
+  #banner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
+  .bg_ing {
+    width: auto;
+    background-position: center;
+  }
+
+  .container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .find_aria {
+    display: flex;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-items: center;
+    margin: auto;
+  }
+
+  .find_aria input,
+  select {
+    width: 255px;
+  }
+
+  .banner_texts {
+    text-align: center;
+    max-width: auto;
+    color: white;
+    padding: 12px;
+  }
+
+  .banner_texts h1 {
+    font-size: 30px;
+    font-weight: 800;
+  }
 }

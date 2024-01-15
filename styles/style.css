@@ -24,7 +24,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -81,4 +81,77 @@
 
 
 
-/*  */
+/* Banner */
+
+.bg_ing{
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.705) 0%, rgba(19, 19, 24, 0.00) 100%),url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner_texts{
+  text-align: center;
+  max-width: 650px;
+  color: white;
+}
+
+.banner_texts h1{
+  font-size: 55px;
+  font-weight: 800;
+}
+
+.banner_texts p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.find_aria{
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+input::placeholder{
+  color: rgba(19, 19, 24, 0.50);
+}
+
+.find_aria input,select{
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  color: rgba(19, 19, 24, 0.50);
+  font-weight: 600;
+}
+
+.btn{
+  width: 150px;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #FF5400;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.btn:hover{
+  background-color: #cd4704;
+}
