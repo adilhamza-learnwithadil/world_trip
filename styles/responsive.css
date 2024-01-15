@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+  /* Navbar */
+  
+  .navbar ul{
+    display: none;
+  }
+
+  .bars{
+    display: block;
+    background: none;
+    border: none;
+    font-size: 25px;
+    transition: all 1s;
+  }
+
+  .bars:hover{
+    color: #FF5400;
+  }
+
+  .logo h2{
+    font-size: 28px;
+  }
+
+  .logo h2 span{
+    font-size: 28px;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  .container_hed{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  /* Banner */
+
+}
