@@ -211,6 +211,10 @@ input::placeholder{
 
 /* Choose Your Destination */
 
+#destinations{
+  margin-bottom: 100px;
+}
+
 .destinations_des{
   max-width: 650px;
   text-align: center;
@@ -226,8 +230,8 @@ input::placeholder{
 .two_place div img{
   max-width: 100%;
   border-radius: 16px;
+  filter: brightness(80%);
 }
-
 
 
 .mar{
@@ -245,4 +249,77 @@ input::placeholder{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.centered_text h3{
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.container_oth{
+  margin-top: 50px;
+}
+
+
+
+/* Why Choose Us */
+#why_choose_us{
+  margin-bottom: 100px;
+}
+
+.flex_row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+
+
+.block{
+  margin: auto;
+  margin-top: 30px;
+}
+
+.whychooseus_curt{
+  max-width: 630px;
+  align-items: center;
+  justify-content: center;
+}
+
+.whychooseus_curt h3{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.whychooseus_curt p{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.light_pink{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+}
+
+.light_blue{
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 30px;
+}
+
+.pink{
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 30px;
 }
